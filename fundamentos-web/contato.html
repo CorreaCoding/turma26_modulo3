@@ -10,15 +10,18 @@
 </head>
 
 <body>
-    <ul id="menu">
-        <li>
-            <a href="index.html">Home</a>
-            <!--href é para inserir link em uma palavra, só que sem o target abre na mesma janela -->
-        </li>
-        <li>
-            <a href="contato.html">Contato</a>
-        </li>
-    </ul>
+    <nav>
+        <ul id="menu">
+            <li>
+                <a href="index.html">Home</a>
+                <!--href é para inserir link em uma palavra, só que sem o target abre na mesma janela -->
+            </li>
+            <li>
+                <a href="contato.html">Contato</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
     <h1 class="center">Entre em contato comigo!</h1>
 
     <div class="container margin-left">
@@ -38,9 +41,11 @@
                 <br>
                 <label for="assunto">Assunto:</label>
                 <br>
-                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-                <br><br>
-                <button>Enviar</button>
+                <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+                <div id="txtAssunto"></div>
+                <br>
+                <br>
+                <button onclick="enviar()">Enviar</button>
             </form>
         </div>
 
@@ -51,11 +56,12 @@
 
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24190.45868092692!2d-73.86155554085425!3d40.72225762715313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25e272209dded%3A0xc713fa428b2ab9ea!2sForest%20Hills%2C%20Queens%2C%20NY%2011375%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1629340903962!5m2!1spt-BR!2sbr"
-                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" id="mapa"
+                onmousemove="mapazoom()" onmouseout="mapanormal()"></iframe>
         </div>
     </div>
 
-    <audio src="assets/audio/yt1s.com - Marvels SpiderMan SpiderMan PS4  Main Theme Full.mp3"autoplay controls>
+    <audio src="assets/audio/yt1s.com - Marvels SpiderMan SpiderMan PS4  Main Theme Full.mp3" autoplay controls>
         <p> O seu navegador não suporta a trilha sonora</p>
     </audio>
 
