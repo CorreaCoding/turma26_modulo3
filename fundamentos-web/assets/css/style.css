@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
 }
-
+/* 
 #menu li {
     display: inline;
     padding: 15px;
@@ -25,12 +25,12 @@
     text-decoration: none;
     color: black;
     font-size: 30px;
-}
+} */
 
 /* Quando o mouse passar por cima ele muda a cor */
-#menu li a:hover {
+/* #menu li a:hover {
     color: grey;
-}
+} */
 
 .padding-30 {
     padding: 30px;
