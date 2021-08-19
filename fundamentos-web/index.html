@@ -1,5 +1,4 @@
 <!-- Servidor sempre procura arquivo Index no momento do Deploy -->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -8,44 +7,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-
     <!-- Lista Ordenada (Ordered List -> <ol></ol>) vem com números do lado -->
     <!-- Lista Desordenada (Unordered List -> <ul></ul>) vem com pontinhos -->
     <!-- Items da Lista (list item -> <li></li>) -->
-
-    <ul>
+    <ul id="menu">
         <li>
-            <a href="index.html">Home</a> <!--href é para inserir link em uma palavra, só que sem o target abre na mesma janela -->
+            <a href="index.html">Home</a>
+            <!--href é para inserir link em uma palavra, só que sem o target abre na mesma janela -->
         </li>
         <li>
             <a href="contato.html">Contato</a>
         </li>
     </ul>
-
     <!-- Vai de h1 até h6 -->
-    <h1>Sobre a Amanda</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias incidunt aut asperiores dolore sunt provident
-        quod tempora officiis saepe consequatur possimus ullam quaerat tenetur dicta sapiente in cum, eaque qui? Lorem
-        ipsum dolor sit amet, consectetur adipisicing elit. Illum velit nesciunt nostrum enim nihil dignissimos, nisi
-        quo corrupti neque perspiciatis natus cupiditate dolorum ratione quae rerum assumenda nemo, necessitatibus ad?
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. At, mollitia quibusdam. Aspernatur laudantium ullam
-        dicta voluptatem, inventore quae, aliquam aliquid reiciendis dolores quisquam dignissimos. Iusto facilis libero
-        cupiditate hic dicta?
-    </p>
+    <h1 style="text-align: center;">Sobre a Amanda</h1>
 
-    <!-- alt é o texto que aparece caso a imagem não carregue e também serve para a acessibilidade -->
-    <img src="assets/img/pp.jpg" alt="Foto da criadora do Conteúdo">
+    <div class="container">
+        <div class="padding-30">
+            <!-- CSS inline serve para alterar de forma rápida o estilo de algum elemento -->
+            <p class="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias incidunt aut asperiores
+                dolore sunt provident
+                quod tempora officiis saepe consequatur possimus ullam quaerat tenetur dicta sapiente in cum, eaque qui?
+                Lorem
+                ipsum dolor sit amet, consectetur adipisicing elit. Illum velit nesciunt nostrum enim nihil dignissimos,
+                nisi
+                quo corrupti neque perspiciatis natus cupiditate dolorum ratione quae rerum assumenda nemo,
+                necessitatibus ad?
+            </p>
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At, mollitia quibusdam. Aspernatur laudantium
+                ullam
+                dicta voluptatem, inventore quae, aliquam aliquid reiciendis dolores quisquam dignissimos. Iusto facilis
+                libero
+                cupiditate hic dicta?
+            </p>
+        </div>
+        <!-- alt é o texto que aparece caso a imagem não carregue e também serve para a acessibilidade -->
+        <div>
+            <img class="border-radius-50 width-height-250 padding-30" src="assets/img/pp.jpg"
+                alt="Foto da criadora do Conteúdo">
+        </div>
+    </div>
+    <h2 class="center">Minha música favorita:</h2>
+    <div class="container margin-video-50">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WD8WQIvBRdM"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
 
-    <h2>Minha música favorita:</h2>
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WD8WQIvBRdM"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+    <!-- Tag de separação -->
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/correacoding/" target="_blank">
+                <img class="tamanhoIcone padding-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+            <a href="https://github.com/CorreaCoding" target="_blank">
+            <img class="tamanhoIcone padding-30" src="assets/img/github.png" alt="Logo do Github">
+            </a>
+            <a href="https://twitter.com/correa_on" target="_blank">
+            <img class="tamanhoIcone padding-30" src="assets/img/twitter.png" alt="Logo do Twitter">
+            </a>
+        </div>
+        <p class="center">Todos os direitos reservados: CorreaCoding &copy</p>
+    </footer>
+
+
 </body>
 
 </html>
