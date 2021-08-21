@@ -13,8 +13,8 @@
 </head>
 
 <body>
-    <nav style="text-align: center; padding: 8px; background-color: #B53625; margin: 0px;">
-        <!-- <ul id="menu">
+    <!-- <nav style="text-align: center; padding: 8px; background-color: #B53625; margin: 0px;">
+        <ul id="menu">
             <li>
                 <a href="index.html">Home</a>
                 href é para inserir link em uma palavra, só que sem o target abre na mesma janela
@@ -22,46 +22,62 @@
             <li>
                 <a href="contato.html">Contato</a>
             </li>
-        </ul> -->
+        </ul>
         <div>
             <a href="index.html"><img src="assets/img/home.png" alt="Icone de Página Inicial" /></a>
             <a href="contato.html"> <img src="assets/img/mail.png" alt="Icone de Página de Contato" /></a>
             <a href="imagens.html"> <img src="assets/img/image-gallery.png" alt="Icone de Fotos" /></a>
         </div>
     </nav>
-    <hr style="margin: 1px;">
+    <hr style="margin: 1px;"> -->
 
-    <!-- Vai de h1 até h6 -->
-    <h1 style="text-align: center;">Sobre o Peter Parker</h1>
+    <!-- Só uma imagem -->
+    <nav class="navbar navbar-light" style="background-color: #B53625;">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/img/home.png" width="30" height="30" alt="Icone de Página Inicial">
+            <a class="navbar-brand" href="contato.html">
+                <img src="assets/img/mail.png" width="30" height="30" alt="Icone de Página Inicial">
+            </a>
+            <a class="navbar-brand" href="imagens.html">
+                <img src="assets/img/image-gallery.png" width="30" height="30" alt="Icone de Página Inicial">
+            </a>
+    </nav>
 
-    <div class="container">
-        <div class="padding-30">
-            <!-- CSS inline serve para alterar de forma rápida o estilo de algum elemento -->
-            <p class="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias incidunt aut
-                asperiores
-                dolore sunt provident
-                quod tempora officiis saepe consequatur possimus ullam quaerat tenetur dicta sapiente in cum, eaque qui?
-                Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Illum velit nesciunt nostrum enim nihil dignissimos,
-                nisi
-                quo corrupti neque perspiciatis natus cupiditate dolorum ratione quae rerum assumenda nemo,
-                necessitatibus ad?
-            </p>
-            <p class="justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. At, mollitia quibusdam. Aspernatur laudantium
-                ullam
-                dicta voluptatem, inventore quae, aliquam aliquid reiciendis dolores quisquam dignissimos. Iusto facilis
-                libero
-                cupiditate hic dicta?
-            </p>
+    <div style="background-color: #3B4C70; color:white; padding-top: 10px;">
+        <!-- Vai de h1 até h6 -->
+        <h1 style="text-align: center;">Sobre o Peter Parker</h1>
+        <div class="container">
+            <div class="padding-30">
+                <!-- CSS inline serve para alterar de forma rápida o estilo de algum elemento -->
+                <p class="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias incidunt aut
+                    asperiores
+                    dolore sunt provident
+                    quod tempora officiis saepe consequatur possimus ullam quaerat tenetur dicta sapiente in cum, eaque
+                    qui?
+                    Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit. Illum velit nesciunt nostrum enim nihil
+                    dignissimos,
+                    nisi
+                    quo corrupti neque perspiciatis natus cupiditate dolorum ratione quae rerum assumenda nemo,
+                    necessitatibus ad?
+                </p>
+                <p class="justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At, mollitia quibusdam. Aspernatur
+                    laudantium
+                    ullam
+                    dicta voluptatem, inventore quae, aliquam aliquid reiciendis dolores quisquam dignissimos. Iusto
+                    facilis
+                    libero
+                    cupiditate hic dicta?
+                </p>
+            </div>
+            <!-- alt é o texto que aparece caso a imagem não carregue e também serve para a acessibilidade -->
+            <div>
+                <img class="border-radius-50 width-height-250 padding-30" src="assets/img/peter-parker.jpg"
+                    alt="Foto da criadora do Conteúdo">
+            </div>
         </div>
-        <!-- alt é o texto que aparece caso a imagem não carregue e também serve para a acessibilidade -->
-        <div>
-            <img class="border-radius-50 width-height-250 padding-30" src="assets/img/peter-parker.jpg"
-                alt="Foto da criadora do Conteúdo">
-        </div>
-    </div>
-    <!-- <h2 class="center">Trilha Sonora:</h2>
+        <!-- <h2 class="center">Trilha Sonora:</h2>
     <div class="container margin-video-50">
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6XpU86QsZj0"
             title="YouTube video player" frameborder="0"
@@ -70,9 +86,10 @@
     </div> -->
 
 
-    <audio src="assets/audio/yt1s.com - SpiderMan Movie Theme 2.mp3" autoplay controls>
-        <p> O seu navegador não suporta a trilha sonora</p>
-    </audio>
+        <audio src="assets/audio/yt1s.com - SpiderMan Movie Theme 2.mp3" autoplay controls>
+            <p> O seu navegador não suporta a trilha sonora</p>
+        </audio>
+    </div>
 
     <!-- Tag de separação -->
     <hr>
@@ -89,8 +106,9 @@
                 <img class="tamanhoIcone padding-30" src="assets/img/spider-web.png" alt="Logo Teia Spiderman">
             </a>
         </div> -->
-        <p style= "align-items: flex-end;"class="center">Todos os direitos reservados: Marvel &copy</p>
-        <div class=’spider’></div>
+
+        <p style="align-items: flex-end;" class="center">Todos os direitos reservados: Marvel &copy</p>
+
     </footer>
 
 

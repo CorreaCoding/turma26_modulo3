@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav style="text-align: center; padding: 8px; background-color: #B53625;">
+    <!-- <nav style="text-align: center; padding: 8px; background-color: #B53625;"> --> 
         <!-- <ul id="menu">
             <li>
                 <a href="index.html">Home</a>
@@ -23,18 +23,26 @@
                 <a href="contato.html">Contato</a>
             </li>
         </ul> -->
-        <div>
+        <!-- <div>
             <a href="index.html"><img src="assets/img/home.png" alt="Icone de Página Inicial" /></a>
             <a href="contato.html"> <img src="assets/img/mail.png" alt="Icone de Página de Contato" /></a>
             <a href="imagens.html"> <img src="assets/img/image-gallery.png" alt="Icone de Fotos" /></a>
         </div>
     </nav>
-    <hr style="margin: 1px;">
-    <h1 class="center">Entre em contato comigo!</h1>
+    <hr style="margin: 1px;"> -->
+    <nav class="navbar navbar-light" style="background-color: #B53625;">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/home.png" width="30" height="30" alt="Icone de Página Inicial">
+        </a>
+        <a href="contato.html"> <img src="assets/img/mail.png" alt="Icone de Página de Contato" /></a>
+          <a href="imagens.html"> <img src="assets/img/image-gallery.png" alt="Icone de Fotos" /></a>
+      </nav>
 
+      <div style="background-color: #3B4C70; color:white; padding-top: 10px;">
+    <h1 class="center">Entre em contato comigo!</h1>
     <div class="container margin-left">
 
-        <div>
+        <div >
             <form>
                 <!-- A label se refere ao input -->
                 <label for="nome">Nome:</label>
@@ -53,7 +61,7 @@
                 <div id="txtAssunto"></div>
                 <br>
                 <br>
-                <button onclick="enviar()">Enviar</button>
+                <input onclick="enviar()" class="btn" style="background-color: #B53625;" type="submit" value="Enviar">
             </form>
         </div>
 
@@ -69,20 +77,20 @@
         </div>
     </div>
 
-    <!-- <audio src="assets/audio/yt1s.com - Marvels SpiderMan SpiderMan PS4  Main Theme Full.mp3" autoplay controls>
+    <audio src="assets/audio/yt1s.com - Marvels SpiderMan SpiderMan PS4  Main Theme Full.mp3" autoplay controls>
         <p> O seu navegador não suporta a trilha sonora</p>
-    </audio> -->
-
+    </audio>
+</div>
     <!-- Tag de separação -->
-    <hr>
-    <footer>
+    
+    <footer >
         <!-- <div class="container">
             <a href="https://www.amazon.com.br/Homem-aranha-Azul-Jeph-Loeb/dp/8583684243" target="_blank">
                 <img class="tamanhoIcone padding-30" src="assets/img/spiderman (1).png"
                     alt="Logo do Aranha - Spiderman">
             </a>
             <a href="https://www.marvel.com/characters/spider-man-peter-parker" target="_blank">
-                <img class="tamanhoIcone padding-30" src="assets/img/spiderman.png" alt="Logo do Lego Spiderman">
+                <img class="tamanhoIcone padding-30" src="assets/img" alt="Logo do Lego Spiderman">
             </a>
             <a href="https://www.amazon.com.br/Homem-Aranha-Tobey-Maguire/dp/B07QWYLDXF" target="_blank">
                 <img class="tamanhoIcone padding-30" src="assets/img/spider-web.png" alt="Logo Teia Spiderman">
@@ -90,8 +98,8 @@
         </div> -->
         <p class="center">Todos os direitos reservados: Marvel &copy</p>
     </footer>
-
-
+</div>
+</div>
 </body>
 
 </html>
