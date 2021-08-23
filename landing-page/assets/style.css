@@ -1,0 +1,197 @@
+/* Fonte do Título da página, Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&family=Raleway&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.bgPrimary {
+  background: #F2D5C4;
+}
+
+.bgSecondary{
+  background: #FEF6F0;
+  color: #313131;
+}
+
+.brThyrd{
+  background: #FFFBF7
+}
+
+nav {
+  display: flex; /*Coloca tudo em apenas uma linha*/
+  align-items: center; /*alinha na vertical*/
+  justify-content: space-between; /*alinha na horizontal*/
+  height: 60px;
+  padding: 0 45px;
+}
+
+
+/* Dentro da nav procure o h3 */
+nav h3 {
+  /* Tamanho da fonte, na aula colocaram 2rem, mas ficou muito diferente do wireframe */
+  font-size: 22px; /*32px*/
+  /* Primeira fonte é específica e a segunda é de back-up */
+  font-family: 'Raleway', sans-serif;
+  /* Transformando o texto todo em maiúsculo */
+  text-transform: uppercase;
+  /* Colocando o peso da fonte como negrito*/
+  font-weight: bold;
+}
+
+/* protecting the beauty! */
+h1 {
+    /* Primeira fonte é específica e a segunda é de back-up */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+}
+
+/* Primeira imagem da página */
+.imgFundo {
+  /* HTML --> src="" | CSS --> url="" */
+  background-image: url("/assets/img/background-image.jpg");
+  /* Propriedade de contain mostra 100% da imagem na div/section a qual ela pertence */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 650px;
+}
+
+/* Texto escrito na esquerda na parte inicial */
+.detalhes{
+  /* Todos os elementos ficam em uma linha, um do lado do outro */
+  display: flex;
+  /* Os elemntos ficam em colunas */
+  flex-direction: column;
+  align-items: flex-start; /*alinha na horizontal, no lado esquerdo*/
+  justify-content: space-around;
+  height: 400px;
+  width: 25%;
+  padding-left: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.detalhes input{
+  width: 80%;
+  height: 40px;
+  padding: 0 16px;
+  font-family: 'Poppins', sans-serif;
+  /* Ficar sem borda */
+  border: none;
+}
+
+.detalhes input:focus{
+  /* Ficar sem borda quando estiver com foco (clicado) */
+  outline: none;
+}
+
+.detalhes button{
+  width: 50%;
+  height: 40px;
+  background: #463232;
+  font-family: 'Poppins', sans-serif;
+  color: #FFF;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+}
+
+.empresas {
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px 0;
+}
+
+.produtos {
+  display: flex;
+  justify-content: space-evenly;
+  height: 650px;
+}
+
+.produtoUnico {
+  font-family: 'Poppins', sans-serif;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#comprar{
+  width: 30%;
+  height: 50px;
+  background: #463232;
+  font-family: 'Poppins', sans-serif;
+  color: #FFF;
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
+
+#detalhes{
+  width: 30%;
+  height: 50px;
+  background: #FFF;
+  font-family: 'Poppins', sans-serif;
+  color: #463232;
+  font-size: 15px;
+  border: 1px solid #463232;
+  outline: none;
+}
+
+.subtitulos{
+font-weight: 590; 
+color:rgb(70, 50, 50); 
+font-size: 55px;
+font-family: 'Poppins', sans-serif;
+}

@@ -5,29 +5,33 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Site feito na Aula</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Wildling</title>
+  <!-- Importação do CSS -->
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 
+<!-- Arquivo externo de CSS é o que tem menos peso -->
+<!-- CSS inline é para algo específico -->
 <body>
   <nav class='bgPrimary'>
     <h3>Wildling</h3>
-    <div>
+    <div style="justify-content: space-between;">
       <a href="#">Manufacturing</a>
       <a href="#">Packaging</a>
       <a href="#">Farms</a>
       <a href="#">Delivery</a>
     </div>
     <div>
-      <img src="./img/user.png" alt="Icone de Usuário" />
-      <img src="./img/shopping-cart.png" alt="Icone de Carrinho" />
-      <img src="./img/menu.png" alt="Icone de Menu" />
+      <img src="assets/img/user.png" alt="Icone de Usuário" />
+      <img src="assets/img/shopping-cart.png" alt="Icone de Carrinho" />
+      <img src="assets/img/menu (2).png" alt="Icone de Menu" />
     </div>
   </nav>
   <div class="bgPrimary imgFundo">
     <h1 style="color:rgb(70, 50, 50); word-spacing: 1px;">protecting the beauty!</h1>
     <section class='detalhes'>
-      <p>Lorem ipsum dolor sit amet.</p>
+      <p>It increases circulation and improves lymphaticfunction, resulting in a naturally dewy,
+        glowing complexion.</p>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
         nam amet ea, ipsum impedit beatae? Suscipit ipsam aliquid omnis saepe,
@@ -35,73 +39,70 @@
         eum?
       </p>
       <input type="text" placeholder="Search here..." />
-      <button type="submit">View Detail</button>
+      <button type="submit">VIEW DETAIL</button>
     </section>
   </div>
   <section class='bgSecondary'>
-    <h3 class='empresas'>Lorem, ipsum dolor.</h3>
+    <h3 class='empresas' style="font-size: 22px;">SOME OF OUR LENDERS</h3>
     <div class="logos">
-    <img src="./img/logo-generico.png" alt="Logo da empresa" height="60px" />
-    <img src="./img/logo-generico.png" alt="Logo da empresa" height="60px" />
-    <img src="./img/logo-generico.png" alt="Logo da empresa" height="60px" />
-    <img src="./img/logo-generico.png" alt="Logo da empresa" height="60px" />
-    <img src="./img/logo-generico.png" alt="Logo da empresa" height="60px" />
-    <img src="./img/logo-generico.png" alt="Logo da empresa" height="60px" />
+      <img src="assets/img/logo-chase.png" alt="Logo da empresa" height="60px" />
+      <img src="assets/img/logo-asana.png" alt="Logo da empresa" height="60px" />
+      <img src="assets/img/logo-google.png" alt="Logo da empresa" height="60px" />
+      <img src="assets/img/logo-buzzfeed.png" alt="Logo da empresa" height="60px" />
+      <img src="assets/img/logo-toggl.png" alt="Logo da empresa" height="60px" />
+      <img src="assets/img/logo-walmart.png" alt="Logo da empresa" height="60px" />
     </div>
   </section>
   <section class='produtos'>
     <div class='produtoUnico'>
-      <h2>Lorem, ipsum.</h2>
+      <h2 class="subtitulos">about us</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-        nostrum accusantium, placeat, error iste facere modi porro, doloremque
-        laboriosam officia saepe mollitia. Similique, dolorem beatae.
+        Improves lymphatic function, resulting in a naturally dewy, glowing complexion.
       </p>
-      <button type="submit">Buy Now</button>
+      <button type="submit" id="comprar">BUY NOW</button>
       <div>
-        <img src="./img/produto-1.jpg" alt="Imagem do monitor" height="300px" />
+        <img src="assets/img/produto-1.jpg" alt="Produto Número 1º" height="300px" />
       </div>
     </div>
-    <div>
-      <div>
-        <img src="./img/produto-2.jpg" alt="Imagem do monitor" height="300px" />
+    <div class='produtoUnico'>
+      <div >
+        <img src="assets/img/produto-2.jpg" alt="Produto Número 2º height="300px" />
       </div>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
         nostrum accusantium, placeat, error iste facere modi porro, doloremque
         laboriosam officia saepe mollitia. Similique, dolorem beatae.
       </p>
-      <button type="submit">Read More</button>
+      <button type="submit" id="detalhes">READ MORE</button>
     </div>
   </section>
   <section>
-    <div>
-      <h2>Produtos</h2>
-      <p>Lorem ipsum dolor sit amet.</p>
+    <div claas="produtoUnico">
+      <h2 class="subtitulos" style="text-align: center; padding-top: 50px;">products</h2>
+      <p>  Improves lymphatic function, resulting in a naturally dewy, glowing complexion.</p>
     </div>
-    <div>
-      <div>
-        <img src="./img/gabinete.jpg" alt="Foto do gabinete" />
-        <h3>Gabinete Gamer</h3>
+    <div class="produtoUnico">
+      <div >
+        <img src="assets/img/produto-3.jpg" alt="Produto Número 3º" />
+        <h3>express tonic</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
-          repellendus!
+         By message or am nothing amongst chiefly address. The its enable direct men depend highly. Ham windows sixteen who inquiry fortune
         </p>
         <div>
-          <button>Comprar agora</button>
-          <button>Adicionar ao carrinho</button>
+          <button>buy now</button>
+          <button>add to cart</button>
         </div>
       </div>
       <div>
-        <img src="./img/gabinete.jpg" alt="Foto do gabinete" />
-        <h3>Gabinete Gamer</h3>
+        <img src="assets/img/produto-4.jpg" alt="Produto Número 4º" />
+        <h3>higher self oil</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
           repellendus!
         </p>
         <div>
-          <button>Comprar agora</button>
-          <button>Adicionar ao carrinho</button>
+          <button>buy now</button>
+          <button>add to cart</button>
         </div>
       </div>
     </div>
