@@ -129,22 +129,7 @@ table {
   border-spacing: 0;
 }
 
-#player-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  z-index: 999;
-}
 
-.video {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-}
 
 .imagem {
   width: 238px;
@@ -181,6 +166,6 @@ div {
   text-align: center; 
   }
 
-  card-gradient{
-    
-  }
+a:hover{
+  background-color: red;
+}
