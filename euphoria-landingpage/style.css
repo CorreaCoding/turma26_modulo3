@@ -163,9 +163,35 @@ div {
   position: absolute;
   bottom: 0px; 
   left: 0px; 
-  text-align: center; 
+  text-align: center;
   }
 
-a:hover{
-  background-color: red;
+  .corInstagram{
+    color: white;
+  }
+
+  .corInstagram:hover{
+    color: #DC287D;
+  }
+
+.corTwitter{
+  color: white;
+}
+
+.corTwitter:hover{
+  color: #2AA9E0;
+}
+
+.corGithub{
+  color: white;
+}
+
+.corGithub:hover{
+  color: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+
+.fonte{
+  font-family: 'Work Sans', sans-serif;
 }
