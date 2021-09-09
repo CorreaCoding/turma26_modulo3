@@ -1,159 +1,11 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-
-
-.imagem {
-  width: 238px;
-  height: 238px;
-
-}
-
-div {
-  float: left;
-  
-}
-
 .caixa {
-  /* background: linear-gradient(
-    rgba(238, 238, 238, 0.336),
-    rgba(161, 161, 161, 0.138)
-  ); */
   background-color: #fff;
   border-radius: 15px;
 }
 
 .corFooter{
-  background: rgb(128,17,196);
-  background: radial-gradient(circle, rgba(128,17,196,1) 0%, rgba(39,9,121,1) 71%, rgba(0,1,36,1) 100%);
+  background: rgb(74,11,112);
+  background: linear-gradient(90deg, rgba(74,11,112,1) 0%, rgba(37,39,88,1) 71%, rgba(0,1,36,1) 100%);
 }
 
 #footer {
@@ -195,3 +47,5 @@ div {
 .fonte{
   font-family: 'Work Sans', sans-serif;
 }
+
+
